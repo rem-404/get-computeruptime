@@ -1,3 +1,7 @@
+<#
+Written for PowerShell 5.1 compatibility, where there's no native get-uptime cmdlet
+#>
+
 function Get-ComputerUptime {
   [cmdletbinding()]
   param (
